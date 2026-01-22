@@ -1,7 +1,7 @@
 # Dubai Cashless 2026: Reducing Logistics Leakage
 Optimizing UAE e-commerce through Predictive RTO Modeling and Agentic AI Payment Nudges.
 
-![Dubai-Cashless-2026-Reducing-Logistics-Leakage](dashboard/Dashboard).png)
+![Dubai-Cashless-2026-Reducing-Logistics-Leakage](dashboard/Dashboard.png)
 
 Executive Summary
 In alignment with the Dubai Economic Agenda (D33), this project addresses the multi-million dirham "Logistics Leakage" caused by Cash-on-Delivery (COD) failures. By engineering a predictive "Aani Nudge" engine, I identified AED 251K+ in annual recoverable revenue by converting high-risk COD transactions into digital-first successes.
