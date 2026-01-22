@@ -24,6 +24,27 @@ Agentic Nudge Engine (/scripts): A LangChain-powered agent that triggers when a 
 
 Executive Dashboard (/dashboard): A high-fidelity Power BI suite featuring a Financial Waterfall Bridge and a Geo-Spatial Risk Map of Dubai districts.
 
+graph TD
+    A[New COD Order Received] --> B{Predictive Model}
+    B -- Risk Score < 0.7 --> C[Standard Logistics Path]
+    B -- Risk Score >= 0.7 --> D[Flag as 'High-Risk RTO']
+    
+    D --> E[Agentic Nudge Engine]
+    E --> F{Analyze Context}
+    
+    F --> G[Previous Failed Delivery?]
+    F --> H[High-Density District?]
+    
+    G & H --> I[Generate Hyper-Personalized Nudge]
+    I --> J[Send 'Aani' Payment Link via SMS/WhatsApp]
+    
+    J --> K{User Action}
+    K -- Payment Success --> L[Secured Digital Delivery]
+    K -- No Action --> M[Priority Courier Assignment]
+    
+    style E fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+
 📂 Project Structure
 Bash
 ├── dashboard/      # Power BI .pbix and screen recordings
