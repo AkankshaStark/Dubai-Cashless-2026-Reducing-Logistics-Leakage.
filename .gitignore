@@ -1,0 +1,18 @@
+# Secrets and Credentials
+.env
+.env.local
+
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Data and Outputs (Optional: keep these local if they are large)
+outputs/
+*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
